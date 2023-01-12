@@ -1,0 +1,106 @@
+.top-results {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    max-width: 850px;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: var(--shadow-value);
+}
+
+.results-head {
+    display: flex;
+    align-items: center;
+}
+
+.results-head p {
+    color: dimgray;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.results-head span {
+    font-size: 15px;
+}
+
+.results-head img {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px 0 20px;
+}
+
+.picker {
+    padding: 0 5px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.picker select {
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.top-results .spacer {
+    flex: 1;
+}
+
+.top-results hr {
+    margin: 20px 0;
+    border-top: 1px solid rgb(232, 232, 232);
+}
+
+.item-project {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-project h2 {
+    color: var(--secondary-color);
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.item-project span {
+    font-size: 14px;
+}
+
+.item-project p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.required-skills {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.required-skills p {
+    color: var(--secondary-color);
+}
+
+.required-skills hr {
+    margin: 0 10px;
+}
+
+.star-timing {
+    display: flex;
+    align-items: center;
+}
+
+.star-timing img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.star-timing p {
+    margin: 0 10px;
+}
+
+.item-project hr {
+    margin-top: 25px;
+}
