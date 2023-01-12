@@ -1,5 +1,5 @@
 .search {
-    width: 100%;
+    flex: 1;
     background-color: #0e1724;
     padding: 25px;
 }
