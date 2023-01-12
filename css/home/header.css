@@ -52,6 +52,7 @@ nav ul {
 .header hr {
     height: 20px;
     margin: 0 15px;
+    border-left: 0.2px solid rgb(228, 227, 227);
 }
 
 .outline-btn {
