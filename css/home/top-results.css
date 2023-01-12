@@ -55,6 +55,7 @@
 .item-project {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .item-project h2 {
